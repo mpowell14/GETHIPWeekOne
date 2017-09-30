@@ -14,3 +14,8 @@ function getRandomColor() {
   }
   return color;
 }
+
+function setButtonText() {
+    document.getElementById("button1").innerHTML = document.getElementById('buttonText').value;
+    // document.getElementById("button1").innerHTML = "this is a button";
+}
